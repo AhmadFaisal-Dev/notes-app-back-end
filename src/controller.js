@@ -81,5 +81,5 @@ export const deleteNoteById = (req, res) => {
   return res.status(404).json({
     status: 'fail',
     message: 'Catatan gagal di hapus. Id tidak di temukan'
-  })
+  });
 };
